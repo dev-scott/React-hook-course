@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react' // no need to   
+import Basic from "./tutorial/1-useState/setup/3-useState-array"
 function App() {
   return (
     <div className='container'>
-      <h2>Advanced Tutorial</h2>
+      <Basic/>
     </div>
   )
 }
